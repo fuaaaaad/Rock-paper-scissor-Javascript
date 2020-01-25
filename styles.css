@@ -1,0 +1,29 @@
+.Container div{
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: rgba(37,50,233, 13);
+}
+.container img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0,0,0,);
+}
+
+
+.Container img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50,233,1);
+}
+
+
+.Container{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+}
+
+.RPS{
+    display: flex;
+}
